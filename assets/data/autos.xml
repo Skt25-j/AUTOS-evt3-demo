@@ -87,16 +87,16 @@
               <add place="below" seq="4">- Autos -</add>
             </subst>
           </mod>
-          <!--  <subst>
-               <del seq="4" rend="strikethrough"><del seq="3" rend="strikethrough"><del rend="strikethrough" seq="1">Autospicologia</del>
-               <add place="inline" seq="2">Autologia</add></del>
-               <add place="below" seq="3">W stefano</add></del>
-               <add place="below" seq="5">Autos</add>
-               </subst>
-               Questa rappresentazione, con annidamento di <del> e <add> credo sia più ambigua, perchè può suggerire che l'autore abbia cancellato tutto il blocco precedente di volta in volta-->
-          
-          <mod change="#strato-2"><del rend="strikethrough">Pazzo d'Italia</del></mod>
-          
+              <!--  <subst>
+              <del seq="4" rend="strikethrough"><del seq="3" rend="strikethrough"><del rend="strikethrough" seq="1">Autospicologia</del>
+              <add place="inline" seq="2">Autologia</add></del>
+              <add place="below" seq="3">W stefano</add></del>
+              <add place="below" seq="5">Autos</add>
+              </subst>
+            Questa rappresentazione, con annidamento di <del> e <add> credo sia più ambigua, perchè può suggerire che l'autore abbia cancellato tutto il blocco precedente di volta in volta-->
+            
+            <mod change="#strato-2"><del rend="strikethrough">Pazzo d'Italia</del></mod>
+        
         </ab></div>
       
       
@@ -195,7 +195,7 @@
       
       <div type="page">
         <pb  n="2r" facs="2r.jpg" />
-        <fw place="top_right" type="pageNum"><mod change="#strato-1"><add>2</add></mod></fw>
+        <fw place="top_right" type="pageNum">2</fw>
         <p rend="indent"><lb n="1"/>orgoglioso, che crebbe sempre più col crescere di essa, che divenne un<lb n="2"/> albero robusto e arduo a
           sradicarsi quando <mod change="#strato-0"><subst><del rend="strikethrough">intelligen</del> <add place="inline">essa</add></subst></mod> e <lb n="3"/>l’ingegno
           <app>
@@ -206,9 +206,9 @@
           
           
           <!-- <mod change="#strato-0"><subst><del rend="strikethrough" seq="1">fruttificarono qualche <add place="above" seq="2">buon</add> frutto</del>
-               <add place="inline" seq="2">generarono</add>  
-               </subst></mod>: così non si visulizzano gli stadi intermedi:è giusto? La cronologia dovrebbe essere: 1)fruttificarono qualche frutto 2)aggiunta di "buon" 3)cassatura e modifica in "generarono". Da capire se è il modo migliore per rappresentare questo tipo di modifiche inetrne a uno strato. Non è incorente con la codifica a 3r? Anche in quel caso, in uno strato (1) sono avvenute correzioni intermedie, soltanto che lì siamo nel <rdg> e quindi, nella visualizzazione, comapre più volte [1]. Forse anche qui si deve aprire un <app>?  E lavorare poi solo sullo strato-0?-->
-             già <mod change="#strato-0"><add place="above">de'</add></mod> frutti <lb n="4"/>maturi, <mod change="#strato-0"><del rend="strikethrough">e mi</del></mod>
+              <add place="inline" seq="2">generarono</add>  
+            </subst></mod>: così non si visulizzano gli stadi intermedi:è giusto? La cronologia dovrebbe essere: 1)fruttificarono qualche frutto 2)aggiunta di "buon" 3)cassatura e modifica in "generarono". Da capire se è il modo migliore per rappresentare questo tipo di modifiche inetrne a uno strato. Non è incorente con la codifica a 3r? Anche in quel caso, in uno strato (1) sono avvenute correzioni intermedie, soltanto che lì siamo nel <rdg> e quindi, nella visualizzazione, comapre più volte [1]. Forse anche qui si deve aprire un <app>?  E lavorare poi solo sullo strato-0?-->
+          già <mod change="#strato-0"><add place="above">de'</add></mod> frutti <lb n="4"/>maturi, <mod change="#strato-0"><del rend="strikethrough">e mi</del></mod>
           mostraro<mod change="strato-0"><subst> <add place="superscript">ndomi</add> <del rend="overwritten">no</del>
             </subst> </mod> 
           chi fossi, e mi dettero a sperare gran-<lb n="5"/>demente <mod change="#strato-0"><subst><del rend="strikethrough">su</del> <add place="inline">del</add></subst></mod>
@@ -301,14 +301,14 @@
           <!--OPUURE:
                <app>
                <lem varSeq="2"><mod change="#strato-1"><del rend="strikethrough" seq="3">dalla serva</del><add place="above" seq="2"><del rend="strikethrough" seq="1">nel </del><add place="inline" seq="2">da bimbo</add></add></mod></lem>
-               <rdg varSeq="1"><mod change="strato-0">dalla serva</mod></rdg>
-               </app>-->
-               
-               
-         mi prese <mod change="#strato-0"><add place="superscript">tale</add><del><gap quantity="3" rend="overwritten" unit="char"/></del></mod><note resp="editor" n="1" type="critical">di incerta interpretazione</note>
+            <rdg varSeq="1"><mod change="strato-0">dalla serva</mod></rdg>
+          </app>-->
+          
+          
+          mi prese <mod change="#strato-0"><add place="superscript">tale</add><del><gap quantity="3" rend="overwritten" unit="char"/></del></mod><note resp="editor" n="1" type="critical">di incerta interpretazione</note>
           paura che <mod change="strato-0"><subst><add place="above"> tremai</add> <del rend="strikethrough">mi</del></subst><lb n="14"/></mod><mod change="strato-0"><subst><add place="above">continuamente fino</add> <del rend="strikethrough">mi lasciò un’impressione</del></subst></mod>
           all'alba. Quella luce <mod change="strato-0">
-            <del seq="1"><gap quantity="2" rend="overwritten" unit="char"/></del>
+            <del seq="1" rend="strikethrough"><gap quantity="2" rend="overwritten" unit="char"/></del>
             <del seq="2" rend="overwritten">
               <add seq="1" place="superscript">scialba</add>
             </del>
@@ -326,22 +326,14 @@
       <div type="page">
         <pb n="4r" facs="4r.jpg"/>
         <fw place="top_right" type="pageNum">4</fw>
-        <p rend="indent"><lb n="1"/>da non descriverla <mod change="strato-0"><del rend="strikethrough">e mi mis<choice>
-                <sic><del rend="overwritten">e</del></sic>
-                <corr resp="#ST"><add place="superscript">i</add></corr>
-              </choice> a scrivere</del></mod>
-          in versi contati<lb n="2"/>colle dita, <mod change="strato-0"><del rend="strikethrough">e</del></mod> privi d’accenti e imperfetti<lb n="3"/>nel numero delle sillabe; io presunzi di far <mod change="strato-0"><add place="above">de'</add></mod>
-          sett<choice><sic><del rend="overwritten">a</del></sic>
-            <corr resp="#ST"><add place="superscript">e</add></corr></choice>nari <mod change="strato-0"><del><gap quantity="2" rend="overwritten" unit="char"/></del></mod>tenedo<lb n="4"/>per esempio l’Ode del <persName>Foscolo</persName> a <persName>Luigia Pallavicini</persName>,<lb n="5"/>trovata in un librettino <mod change="strato-0"><del rend="strikethrough">tutto</del></mod>
-          che credo avrebbe<lb n="6"/>fatto figura in qualunque museo <mod change="strato-0"><subst><del rend="overwritten">o</del><add place="superscript">d</add></subst></mod>' antichità.'<lb n="7"/>
-          <mod change="strato-0"><del rend="strikethrough">Senza comprenderne il
-              significato contai alla<lb n="8"/>meglio tutte le sillabe de’ primi versi</del></mod> I versi sono<lb n="9"/>questi:
-          <l n="1">Paura questa notte</l>
-         <l n="2">io ho avuto tanto;</l> <l n="3">e l’ore interrotte</l> <l n="4">mi sono dal pianto.</l> <l n="5">Ho tremato e patito</l> <l n="6">in modo infinito.</l> <l n="7">Ho sentito la fata</l> <l n="8">che all’inizio bussava</l> <l n="9">e l’ho vista quando è stata</l> <l n="10">presso al letto che minacciava.</l>
-<l n="11">Di </l>
+        <p rend="indent"><lb n="1"/>da non descriverla <mod change="strato-0"><del rend="strikethrough">e mi mis<del><del rend="overwritten" seq="1">e</del><add place="superscript" seq="2">i</add></del> a scrivere</del></mod>
+          in versi contati<lb n="2"/>colle dita, <mod change="strato-0"><del rend="strikethrough">e</del></mod> privi d’ornamenti e imperfetti<lb n="3"/>nel numero delle sillabe; io presunzi di far <mod change="strato-0"><add place="above">de'</add></mod>
           
           
-        </p></div>
+          
+          
+          
+        </p>  </div>
       
     </body>
     
