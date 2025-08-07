@@ -1,0 +1,8 @@
+.DS_Store
+
+# Visual Studio-related files
+bin/
+obj/
+.vs/
+*.suo
+*.user
